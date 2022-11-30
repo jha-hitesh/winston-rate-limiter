@@ -40,7 +40,7 @@ const { RateLimitingFilter } = require("winston-rate-limiter").utils;
 - build the docker-image of the package `docker-compose build --no-cache`
 - run the image `docker-compose up`
 - go to the container `docker exec -it winstonformattester sh`
-- to run tests `jest`
+- to run tests first install jest `npm install jest` then `jest` to run the actual tests.
 
 
 #### License
