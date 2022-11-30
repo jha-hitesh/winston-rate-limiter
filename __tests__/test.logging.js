@@ -9,6 +9,7 @@ global.logList = new Array();
 class ArrayTransport extends TransportStream {
     log(info, callback) {
         logList.push(info["MESSAGE"])
+        console.log(JSON.stringify(info))
     }
 }
 const logger = winston.createLogger({

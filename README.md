@@ -42,6 +42,9 @@ const { RateLimitingFilter } = require("winston-rate-limiter").utils;
 - go to the container `docker exec -it winstonformattester sh`
 - to run tests first install jest `npm install jest` then `jest` to run the actual tests.
 
+#### generate package-lock.json
+- `npm i --package-lock-only` from container
+
 
 #### License
 

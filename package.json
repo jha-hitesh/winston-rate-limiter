@@ -12,6 +12,8 @@
     "dependencies": {
         "winston": "^3.0.0"
     },
-    "devDependencies": {},
-    "license": "ISC"
+    "devDependencies": {
+        "jest": "^29.3.1"
+    },
+    "license": "MIT"
 }
