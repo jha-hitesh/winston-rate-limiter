@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  winstonformattester:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    hostname: winstonformattester
+    container_name: winstonformattester
+    platform: linux/amd64
+    volumes:
+      - .:/srv/
+    tty: true
+    ports:
+      - "3000:3000"

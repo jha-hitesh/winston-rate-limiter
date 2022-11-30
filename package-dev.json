@@ -1,0 +1,21 @@
+{
+    "name": "winston-rate-limiter",
+    "version": "0.0.1",
+    "description": "a winston format for rate limiting logs in winston logger",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jha-hitesh/winston-rate-limiter.git"
+    },
+    "author": "Hitesh Jha hitesh4official@gmail.com",
+    "dependencies": {
+        "winston": "^3.0.0"
+    },
+    "devDependencies": {
+        "jest": "26.6.3"
+    },
+    "license": "ISC"
+}
