@@ -12,7 +12,6 @@
     },
     "author": "Hitesh Jha hitesh4official@gmail.com",
     "dependencies": {
-        "jest": "^29.3.1",
         "jest-environment-jsdom": "^29.3.1",
         "winston": "^3.0.0"
     },
