@@ -15,7 +15,7 @@ npm install winston-rate-limiter
 - check [example](__tests__/test.logging.js) for a complete example
 - the format is available as
 ```
-const { RateLimitingFilter } = require("winston-rate-limiter").utils;
+const { rateLimitingFormat } = require("winston-rate-limiter").utils;
 ```
 - on a basic level this format can be added to a winston logger or to winston.format.combine
 - this format takes a key called config which has multiple optional keywords with key as log_level and value as a dict with below 3 keys

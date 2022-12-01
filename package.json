@@ -1,6 +1,6 @@
 {
     "name": "winston-rate-limiter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "a winston format for rate limiting logs in winston logger",
     "main": "index.js",
     "scripts": {},
